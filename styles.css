@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Medium.ttf);
+  font-weight: medium;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1, h3 {
+    font-family: Roboto;
+}
+
+h1 {
+    color: rgb(60, 60, 60);
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: rgb(120, 120, 120);
+    margin-top: 0px;
+}
+
+.link-text {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.link-box {
+    display: inline-block;
+    background-color: rgb(150, 150, 150);
+    border-radius: 8px;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+hr {
+    color: rgba(245, 245, 245, 0.5);
+    margin: 0;
+}
+
+.total {
+    display: flex;
+}
+
+.glassmc-img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.glassmc-img-container {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.body {
+    margin-left: 100px;
+}
